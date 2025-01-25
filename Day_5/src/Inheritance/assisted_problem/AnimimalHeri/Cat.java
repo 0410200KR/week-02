@@ -1,0 +1,13 @@
+package Inheritance.assisted_problem.AnimimalHeri;
+
+public class Cat extends Animal{
+    public Cat(String name,int age){
+        super(name,age);}
+    @Override
+
+    void makeSound(){
+        System.out.println(name+" meow "+age);
+
+    }
+
+}

@@ -1,0 +1,12 @@
+package Inheritance.assisted_problem.AnimimalHeri;
+
+public class Dog extends Animal{
+    public Dog(String name,int age){
+        super(name,age);}
+    @Override
+    void makeSound(){
+        System.out.println(name+" bark "+age);
+
+    }
+
+}
